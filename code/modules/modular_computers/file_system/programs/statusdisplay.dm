@@ -6,7 +6,7 @@
 	requires_ntnet = TRUE
 	size = 4
 
-	extended_desc = "An app used to change the message on the station status displays."
+	extended_desc = "An app used to change the message on the ship status displays."
 	tgui_id = "NtosStatus"
 
 	usage_flags = PROGRAM_ALL

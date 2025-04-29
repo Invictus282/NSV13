@@ -1369,7 +1369,7 @@
 
 /obj/item/storage/box/radiokey/sec
 	name = "box of security radio keys"
-	desc = "Grants access to the station's security radio."
+	desc = "Grants access to the ship's security radio."
 	radio_key = /obj/item/encryptionkey/headset_sec
 
 /obj/item/storage/box/radiokey/eng

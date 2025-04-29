@@ -1,6 +1,6 @@
 /obj/machinery/computer/camera_advanced
 	name = "advanced camera console"
-	desc = "Used to access the various cameras on the station."
+	desc = "Used to access the various cameras on the ship."
 	icon_screen = "cameras"
 	icon_keyboard = "security_key"
 	var/list/z_lock = list() // Lock use to these z levels

@@ -76,7 +76,7 @@
 
 /obj/item/banner/security
 	name = "securistan banner"
-	desc = "The banner of Securistan, ruling the station with an iron fist."
+	desc = "The banner of Securistan, ruling the ship with an iron fist."
 	icon_state = "banner_security"
 	item_state = "banner_security"
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'

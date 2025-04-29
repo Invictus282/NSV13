@@ -132,7 +132,7 @@
 	return TRUE
 
 /datum/objective/crew/exterminator
-	explanation_text = "Ensure that there are no more than (Yell on github, this objective broke) living mice on the station when the round ends."
+	explanation_text = "Ensure that there are no more than (Yell on github, this objective broke) living mice on the ship when the round ends."
 	jobs = "janitor"
 
 /datum/objective/crew/exterminator/New()
@@ -142,7 +142,7 @@
 
 /datum/objective/crew/exterminator/update_explanation_text()
 	. = ..()
-	explanation_text = "Ensure that there are no more than [target_amount] living mice on the station when the round ends."
+	explanation_text = "Ensure that there are no more than [target_amount] living mice on the ship when the round ends."
 
 /datum/objective/crew/exterminator/check_completion()
 	var/num_mice = 0

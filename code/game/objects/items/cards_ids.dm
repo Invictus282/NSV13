@@ -100,7 +100,7 @@
 
 /obj/item/card/id
 	name = "identification card"
-	desc = "A card used to provide ID and determine access across the station."
+	desc = "A card used to provide ID and determine access across the ship."
 	icon_state = "id"
 	item_state = "card-id"
 	worn_icon_state = "card-id"

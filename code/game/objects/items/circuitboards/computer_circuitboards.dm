@@ -167,7 +167,7 @@
 	build_path = /obj/machinery/power/solar_control
 
 /obj/item/circuitboard/computer/stationalert
-	name = "station alerts console (Computer Board)"
+	name = "ship alerts console (Computer Board)"
 	icon_state = "engineering"
 	build_path = /obj/machinery/computer/station_alert
 
@@ -463,7 +463,7 @@
 		obj_flags &= ~EMAGGED
 
 /obj/item/circuitboard/computer/cargo/express/emag_act(mob/living/user)
-		to_chat(user, "<span class='notice'>You change the routing protocols, allowing the Drop Pod to land anywhere on the station.</span>")
+		to_chat(user, "<span class='notice'>You change the routing protocols, allowing the Drop Pod to land anywhere on the ship.</span>")
 		obj_flags |= EMAGGED
 
 /obj/item/circuitboard/computer/cargo/request

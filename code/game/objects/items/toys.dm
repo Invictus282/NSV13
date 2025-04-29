@@ -1187,7 +1187,7 @@
 
 /obj/item/toy/clockwork_watch/examine(mob/user)
 	. = ..()
-	. += "<span class='info'>Station Time: [station_time_timestamp()]</span>"
+	. += "<span class='info'>Ship Time: [station_time_timestamp()]</span>"
 
 /*
  * Toy Dagger

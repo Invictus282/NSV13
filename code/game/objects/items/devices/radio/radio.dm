@@ -2,7 +2,7 @@
 
 /obj/item/radio
 	icon = 'icons/obj/radio.dmi'
-	name = "station bounced radio"
+	name = "ship bounced radio"
 	icon_state = "walkietalkie"
 	item_state = "walkietalkie"
 	desc = "A basic handheld radio that communicates with local telecommunication networks."

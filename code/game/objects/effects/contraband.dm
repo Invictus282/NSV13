@@ -200,7 +200,7 @@
 
 /obj/structure/sign/poster/contraband/fun_police
 	name = "Fun Police"
-	desc = "A poster condemning the station's security forces."
+	desc = "A poster condemning the ship's security forces."
 	icon_state = "poster3"
 
 /obj/structure/sign/poster/contraband/lusty_xenomorph
@@ -434,7 +434,7 @@
 
 /obj/structure/sign/poster/official/here_for_your_safety
 	name = "Here For Your Safety"
-	desc = "A poster glorifying the station's security force."
+	desc = "A poster glorifying the ship's security force."
 	icon_state = "poster1_legit"
 
 /obj/structure/sign/poster/official/nanotrasen_logo
@@ -539,7 +539,7 @@
 
 /obj/structure/sign/poster/official/report_crimes
 	name = "Report Crimes"
-	desc = "A poster encouraging the swift reporting of crime or seditious behavior to station security."
+	desc = "A poster encouraging the swift reporting of crime or seditious behavior to ship security."
 	icon_state = "poster22_legit"
 
 /obj/structure/sign/poster/official/ion_rifle
@@ -594,12 +594,12 @@
 
 /obj/structure/sign/poster/official/the_owl
 	name = "The Owl"
-	desc = "The Owl would do his best to protect the station. Will you?"
+	desc = "The Owl would do his best to protect the ship. Will you?"
 	icon_state = "poster33_legit"
 
 /obj/structure/sign/poster/official/no_erp
 	name = "No ERP"
-	desc = "This poster reminds the crew that Eroticism, Rape and Pornography are banned on Nanotrasen stations."
+	desc = "This poster reminds the crew that Eroticism, Rape and Pornography are banned in all Nanotrasen workplaces."
 	icon_state = "poster34_legit"
 
 /obj/structure/sign/poster/official/wtf_is_co2
@@ -609,7 +609,7 @@
 
 /obj/structure/sign/poster/official/moth1
 	name = "Safety Moth - Poisoning"
-	desc = "This informational poster uses Safety Moth(TM) to tell the viewer not to poison the station donuts. It's signed by 'AspEv'."
+	desc = "This informational poster uses Safety Moth(TM) to tell the viewer not to poison the ship donuts. It's signed by 'AspEv'."
 	icon_state = "poster36_legit"
 
 /obj/structure/sign/poster/official/moth2

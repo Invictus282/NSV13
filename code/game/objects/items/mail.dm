@@ -357,7 +357,7 @@
 /obj/item/paper/fluff/nice_argument/Initialize()
 	. = ..()
 	var/station_name = station_name()
-	add_raw_text("Nice argument, however there's a <i>small detail</i>...<br>IP: '[rand(0,10)].[rand(0,255)].[rand(0,255)].[rand(0,255)]'<br> Station name: '[station_name]'<br>")
+	add_raw_text("Nice argument, however there's a <i>small detail</i>...<br>IP: '[rand(0,10)].[rand(0,255)].[rand(0,255)].[rand(0,255)]'<br> Ship name: '[station_name]'<br>")
 
 /obj/item/paper/fluff/junkmail_redpill/Initialize()
 	// 1 in 1000 chance of getting 2 random nuke code characters.

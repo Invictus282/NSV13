@@ -467,7 +467,7 @@
 				mode = SHUTTLE_DOCKED
 				setTimer(SSshuttle.emergencyDockTime)
 				send2tgs("Server", "The Emergency Shuttle has docked with the station.")
-				priority_announce("[SSshuttle.emergency] has docked with the station. You have [timeLeft(600)] minutes to board the Emergency Shuttle.", null, ANNOUNCER_SHUTTLEDOCK, "Priority")
+				priority_announce("[SSshuttle.emergency] has docked with the ship. You have [timeLeft(600)] minutes to board the Emergency Shuttle.", null, ANNOUNCER_SHUTTLEDOCK, "Priority")
 				ShuttleDBStuff()
 
 
@@ -523,7 +523,7 @@
 				mode = SHUTTLE_ESCAPE
 				launch_status = ENDGAME_LAUNCHED
 				setTimer(SSshuttle.emergencyEscapeTime * engine_coeff)
-				priority_announce("The Emergency Shuttle has left the station. Estimate: [timeLeft(600)] minutes until the shuttle docks at Central Command.", null, null, "Priority")
+				priority_announce("The Emergency Shuttle has left the ship. Estimate: [timeLeft(600)] minutes until the shuttle docks at Central Command.", null, null, "Priority")
 
 		if(SHUTTLE_STRANDED)
 			SSshuttle.checkHostileEnvironment()

@@ -233,7 +233,7 @@
 			nuke_request(reason, usr)
 			to_chat(usr, "<span class='notice'>Request sent.</span>")
 			usr.log_message("has requested the nuclear codes from CentCom with reason \"[reason]\"", LOG_SAY)
-			priority_announce("The codes for the on-station nuclear self-destruct have been requested by [usr]. Confirmation or denial of this request will be sent shortly.", "Nuclear Self-Destruct Codes Requested", SSstation.announcer.get_rand_report_sound())
+			priority_announce("The codes for the onboard nuclear self-destruct have been requested by [usr]. Confirmation or denial of this request will be sent shortly.", "Nuclear Self-Destruct Codes Requested", SSstation.announcer.get_rand_report_sound())
 			playsound(src, 'sound/machines/terminal_prompt.ogg', 50, FALSE)
 			COOLDOWN_START(src, important_action_cooldown, IMPORTANT_ACTION_COOLDOWN)
 			. = TRUE
@@ -543,7 +543,7 @@
 	if(!SScommunications.can_announce(user, is_ai))
 		to_chat(user, "<span class='alert'>Intercomms recharging. Please stand by.</span>")
 		return
-	var/input = stripped_input(user, "Please choose a message to announce to the station crew.", "What?")
+	var/input = stripped_input(user, "Please choose a message to announce to the ship's crew.", "What?")
 	if(!input || !user.canUseTopic(src, !issilicon(usr)))
 		return
 	if(CHAT_FILTER_CHECK(input))

@@ -12,7 +12,7 @@
 	filedesc = "ID Card Modification"
 	category = PROGRAM_CATEGORY_CREW
 	program_icon_state = "id"
-	extended_desc = "Program for programming employee ID cards to access parts of the station."
+	extended_desc = "Program for programming employee ID cards to access parts of the ship."
 	transfer_access = list(ACCESS_HEADS)
 	requires_ntnet = 0
 	size = 8

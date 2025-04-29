@@ -27,7 +27,7 @@ GLOBAL_LIST_EMPTY(req_console_ckey_departments)
 
 /obj/machinery/requests_console
 	name = "requests console"
-	desc = "A console intended to send requests to different departments on the station."
+	desc = "A console intended to send requests to different departments on the ship."
 	icon = 'icons/obj/terminals.dmi'
 	icon_state = "req_comp0"
 	layer = ABOVE_WINDOW_LAYER
@@ -161,7 +161,7 @@ GLOBAL_LIST_EMPTY(req_console_ckey_departments)
 					dat += "<B><font color='red'>[emergency] has been dispatched to this location.</font></B><BR><BR>"
 
 				if(announcementConsole)
-					dat += "<A href='?src=[REF(src)];setScreen=[REQ_SCREEN_ANNOUNCE]'>Send Station-wide Announcement</A><BR><BR>"
+					dat += "<A href='?src=[REF(src)];setScreen=[REQ_SCREEN_ANNOUNCE]'>Send Ship-wide Announcement</A><BR><BR>"
 				if (silent)
 					dat += "Speaker <A href='?src=[REF(src)];setSilent=0'>OFF</A>"
 				else
@@ -210,7 +210,7 @@ GLOBAL_LIST_EMPTY(req_console_ckey_departments)
 				dat += "<BR><A href='?src=[REF(src)];setScreen=[REQ_SCREEN_MAIN]'><< Discard Message</A><BR>"
 
 			if(REQ_SCREEN_ANNOUNCE)
-				dat += "<h3>Station-wide Announcement</h3>"
+				dat += "<h3>Ship-wide Announcement</h3>"
 				if(announceAuth)
 					dat += "<div class='notice'>Authentication accepted</div><BR>"
 				else
@@ -292,7 +292,7 @@ GLOBAL_LIST_EMPTY(req_console_ckey_departments)
 			var/mob/living/L = usr
 			message = L.treat_message(message)
 		minor_announce(message, "[department] Announcement:", from = auth_id, html_encode = FALSE)
-		GLOB.news_network.SubmitArticle(message, department, "Station Announcements", null)
+		GLOB.news_network.SubmitArticle(message, department, "Ship Announcements", null)
 		usr.log_talk(message, LOG_SAY, tag="station announcement from [src]")
 		message_admins("[ADMIN_LOOKUPFLW(usr)] has made a station announcement from [src] at [AREACOORD(usr)].")
 		announceAuth = FALSE

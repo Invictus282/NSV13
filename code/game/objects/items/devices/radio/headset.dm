@@ -194,20 +194,20 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/heads/hos
 	name = "\proper the head of security's headset"
-	desc = "The headset of the man in charge of keeping order and protecting the station."
+	desc = "The headset of the man in charge of keeping order and protecting the ship."
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/heads/hos
 
 /obj/item/radio/headset/heads/hos/alt
 	name = "\proper the head of security's bowman headset"
-	desc = "The headset of the man in charge of keeping order and protecting the station. Protects ears from flashbangs."
+	desc = "The headset of the man in charge of keeping order and protecting the ship. Protects ears from flashbangs."
 	icon_state = "com_headset_alt"
 	item_state = "com_headset_alt"
 	bang_protect = 1
 
 /obj/item/radio/headset/heads/chief_engineer
 	name = "\proper the chief engineer's headset"
-	desc = "The headset of the guy in charge of keeping the station powered and undamaged."
+	desc = "The headset of the guy in charge of keeping the ship powered and undamaged."
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/heads/ce
 
@@ -249,7 +249,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_srv
 	name = "service radio headset"
-	desc = "Headset used by the service staff, tasked with keeping the station full, happy and clean."
+	desc = "Headset used by the service staff, tasked with keeping the crew full, happy and clean."
 	icon_state = "srv_headset"
 	keyslot = new /obj/item/encryptionkey/headset_service
 

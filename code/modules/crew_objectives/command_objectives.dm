@@ -21,7 +21,7 @@
 		return ..()
 
 /datum/objective/crew/downwiththestation
-	explanation_text = "Go down with your station. Do not leave on the shuttle or an escape pod. Instead, stay on the bridge."
+	explanation_text = "Go down with your ship. Do not leave on the shuttle or an escape pod. Instead, stay on the bridge."
 	jobs = "captain"
 
 /datum/objective/crew/downwiththestation/check_completion()

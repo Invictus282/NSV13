@@ -1,6 +1,6 @@
 /obj/machinery/computer/atmos_alert
 	name = "atmospheric alert console"
-	desc = "Used to monitor the station's air alarms."
+	desc = "Used to monitor the ship's air alarms."
 	circuit = /obj/item/circuitboard/computer/atmos_alert
 
 

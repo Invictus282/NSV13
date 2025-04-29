@@ -1,6 +1,6 @@
 /obj/structure/lattice
 	name = "lattice"
-	desc = "A lightweight support lattice. These hold our station together."
+	desc = "A lightweight support lattice that forms the structural foundation of space-based vessels, installations, and stations."
 	icon = 'icons/obj/smooth_structures/lattice.dmi'
 	icon_state = "lattice"
 	density = FALSE

@@ -1,7 +1,7 @@
 /*				ENGINEERING OBJECTIVES				*/
 
 /datum/objective/crew/integrity //ported from old Hippie
-	explanation_text = "Ensure the station's integrity rating is at least (Something broke, yell on GitHub)% when the shift ends."
+	explanation_text = "Ensure the ship's integrity rating is at least (Something broke, yell on GitHub)% when the shift ends."
 	jobs = "chiefengineer,stationengineer"
 
 /datum/objective/crew/integrity/New()
@@ -11,7 +11,7 @@
 
 /datum/objective/crew/integrity/update_explanation_text()
 	. = ..()
-	explanation_text = "Ensure the station's integrity rating is at least [target_amount]% when the shift ends."
+	explanation_text = "Ensure the ship's integrity rating is at least [target_amount]% when the shift ends."
 
 /datum/objective/crew/integrity/check_completion()
 	var/datum/station_state/end_state = new /datum/station_state()

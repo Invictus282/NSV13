@@ -4,11 +4,11 @@
 	ui_header = "alarm_green.gif"
 	category = PROGRAM_CATEGORY_ENGI
 	program_icon_state = "alert-green"
-	extended_desc = "This program provides visual interface for station's alarm system."
+	extended_desc = "This program provides visual interface for ship's alarm system."
 	requires_ntnet = 1
 	network_destination = "alarm monitoring network"
 	size = 5
-	tgui_id = "NtosStationAlertConsole"
+	tgui_id = "NtosShipAlertConsole"
 	program_icon = "bell"
 	var/has_alert = 0
 

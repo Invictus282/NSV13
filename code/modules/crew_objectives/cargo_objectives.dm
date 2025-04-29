@@ -1,7 +1,7 @@
 /*				CARGO OBJECTIVES				*/
 
 /datum/objective/crew/petsplosion
-	explanation_text = "Ensure there are at least (If you see this, yell on GitHub) pets on the station by the end of the shift. Interpret this as you wish."
+	explanation_text = "Ensure there are at least (If you see this, yell on GitHub) pets on the ship by the end of the shift. Interpret this as you wish."
 	jobs = "quartermaster,cargotechnician"
 
 /datum/objective/crew/petsplosion/New()
@@ -11,7 +11,7 @@
 
 /datum/objective/crew/petsplosion/update_explanation_text()
 	. = ..()
-	explanation_text = "Ensure there are at least [target_amount] pets on the station by the end of the shift. Interpret this as you wish."
+	explanation_text = "Ensure there are at least [target_amount] pets on the ship by the end of the shift. Interpret this as you wish."
 
 /datum/objective/crew/petsplosion/check_completion()
 	var/petcount = target_amount
@@ -30,7 +30,7 @@
 		return ..()
 
 /datum/objective/crew/points //ported from old hippie
-	explanation_text = "Make sure the station has at least (Something broke, yell on GitHub) station credits at the end of the shift."
+	explanation_text = "Make sure the ship has at least (Something broke, yell on GitHub) ship credits at the end of the shift."
 	jobs = "quartermaster,cargotechnician"
 
 /datum/objective/crew/points/New()
@@ -40,7 +40,7 @@
 
 /datum/objective/crew/points/update_explanation_text()
 	. = ..()
-	explanation_text = "Make sure the station has at least [target_amount] station credits at the end of the shift."
+	explanation_text = "Make sure the ship has at least [target_amount] ship credits at the end of the shift."
 
 /datum/objective/crew/points/check_completion()
 	if(SSshuttle.points >= target_amount)

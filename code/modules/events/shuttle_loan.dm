@@ -29,7 +29,7 @@
 	SSshuttle.shuttle_loan = src
 	switch(dispatch_type)
 		if(HIJACK_SYNDIE)
-			priority_announce("Cargo: The syndicate are trying to infiltrate your station. If you let them hijack your cargo shuttle, you'll save us a headache.", "CentCom Counter Intelligence", SSstation.announcer.get_rand_alert_sound())
+			priority_announce("Cargo: The syndicate are trying to infiltrate your ship. If you let them hijack your cargo shuttle, you'll save us a headache.", "CentCom Counter Intelligence", SSstation.announcer.get_rand_alert_sound())
 		if(RUSKY_PARTY)
 			priority_announce("Cargo: A group of angry Russians want to have a party. Can you send them your cargo shuttle then make them disappear?", "CentCom Russian Outreach Program", SSstation.announcer.get_rand_alert_sound())
 		if(SPIDER_GIFT)
@@ -39,9 +39,9 @@
 			thanks_msg = "The cargo shuttle should return in 5 minutes."
 			bonus_points = 0
 		if(ANTIDOTE_NEEDED)
-			priority_announce("Cargo: Your station has been chosen for an epidemiological research project. Send us your cargo shuttle to receive your research samples.", "CentCom Research Initiatives", SSstation.announcer.get_rand_alert_sound())
+			priority_announce("Cargo: Your ship has been chosen for an epidemiological research project. Send us your cargo shuttle to receive your research samples.", "CentCom Research Initiatives", SSstation.announcer.get_rand_alert_sound())
 		if(PIZZA_DELIVERY)
-			priority_announce("Cargo: It looks like a neighbouring station accidentally delivered their pizza to you instead.", "CentCom Spacepizza Division", SSstation.announcer.get_rand_alert_sound())
+			priority_announce("Cargo: It looks like a nearby station accidentally delivered their pizza to you instead.", "CentCom Spacepizza Division", SSstation.announcer.get_rand_alert_sound())
 			thanks_msg = "The cargo shuttle should return in 5 minutes."
 			bonus_points = 0
 		if(ITS_HIP_TO)

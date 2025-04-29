@@ -15,7 +15,7 @@ You can move an item out of the way by dragging it and then clicking on an adjac
 You can recolor certain items like jumpsuits and gloves in washing machines by also throwing in a crayon.
 Maintenance is full of equipment that is randomized every round. Look around and see if anything is worth using.
 Some roles cannot be antagonists by default, but antag selection is decided first. For instance, you can set Security Officer to High without affecting your chances of becoming an antag -- the game will just select a different role.
-There are many places around the station to hide contraband. A few for starters: linen boxes, toilet cisterns, body bags. Experiment to find more!
+There are many places around the ship to hide contraband. A few for starters: linen boxes, toilet cisterns, body bags. Experiment to find more!
 You can use a machine in the vault to deposit cash or rob Cargo's department funds.
 When in doubt about technicial issues, clear your cache (byond launcher > cogwheel > preferences > game prefs), update your BYOND, and relog.
 Most things have special interactions with your middle mouse button, alt, shift, and control click. Experiment!
@@ -30,14 +30,15 @@ We were all new once, be patient and guide new players in the right direction.
 On most clothing items that go in the exosuit slot, you can put certain small items into your suit storage, such as a spraycan, your emergency oxygen tank, or a flashlight.
 Most job-related exosuit clothing can fit job-related items into it, such as the atmospheric technician's hardsuit/winter coat holding an RPD, or labcoats holding most medicine.
 If you're using hotkey mode, you can stop pulling things using H.
-The station's self-destruct terminal is invincible. Go find the disk instead of trying to destroy it.
+Wearing earmuffs or a munitions helmet while manning the gauss guns or standing next to actively launching guided munitions will save you from hearing loss.
+The ship's self-destruct terminal is invincible. Go find the disk instead of trying to destroy it.
 If there's something you need from another department, try asking! This game isn't singleplayer and you'd be surprised what you can get accomplished together!
 You'll quickly lose your interest in the game if you play to win and kill. If you find yourself doing this, take a step back and talk to people - it's a much better experience!
 Felinids get temporarily distracted by laser pointers. Use this to your advantage when being pursued by one.
 Don't be afraid to ask for help, whether from your peers or from admins.
-As the Captain, you are one of the highest priority targets on the station. Everything from revolutions, to nuclear operatives, to traitors that need to rob you of your unique lasgun or your life are things to worry about.
+As the Captain, you are one of the highest priority targets on the ship. Everything from revolutions, to nuclear operatives, to traitors that need to rob you of your unique lasgun or your life are things to worry about.
 As the Captain, always take the nuclear disk and pinpointer with you every shift. It's a good idea to give one of these to another head you can trust with keeping it safe.
-As the Captain, you have absolute access and control over the station, but this does not mean that being a horrible person won't result in mutiny and a ban.
+As the Captain, you have absolute access and control over the ship, but this does not mean that being a horrible person won't result in mutiny and a ban.
 As the Captain, you can purchase a new emergency shuttle using a communications console. Some require cash, while others give you cash in exchange. Keep in mind that purchasing dangerous shuttles may instigate the ire of your crew.
 As the Chief Medical Officer, your hypospray is like a refillable instant injection syringe that can hold 30 units as opposed to the standard 15.
 As the Chief Medical Officer, coordinate and communicate with your doctors, chemists, and geneticists during a nuclear emergency, blob infestation, or some other crisis to keep people alive and fighting.
@@ -67,7 +68,7 @@ As the Research Director, you can lock down cyborgs instead of blowing them up. 
 As a Scientist, you can use the mutation toxin obtained from green slimes to turn yourself into a jelly mutant. Each subspecies has unique features - for example telepathic powers, duplicating bodies or integrating slime extracts!
 As a Scientist, you can maximize the number of uses you get out of a slime by feeding it slime steroid, created from purple slimes, while alive. You can then apply extract enhancer, created from cerulean slimes, on each extract.
 As a Scientist, you can disable anomalies by scanning them with an analyzer, then send a signal on the frequency it gives you with a remote signaling device, or if researched, hit the anomaly an anomaly analyzer. This will leave behind an anomaly core, which can be used to construct a Phazon mech or reactive armors!
-As a Scientist, researchable stock parts can seriously improve the efficiency and speed of machines around the station. In some cases, it can even unlock new functions.
+As a Scientist, researchable stock parts can seriously improve the efficiency and speed of machines around the ship. In some cases, it can even unlock new functions.
 As a Scientist, you can generate research points by letting the tachyon-doppler array record increasingly large explosions.
 As a Scientist, getting drunk just enough will speed up research. Skol!
 As a Roboticist, keep an ear out for anomaly announcements. If you get your hands on an anomaly core, you can build a Phazon mech!
@@ -85,7 +86,7 @@ As a Service Cyborg, your spray can knocks people down. However, it is blocked b
 As an Engineering Cyborg, you can attach air alarm/fire alarm/APC frames to walls by placing them on the floor and using a screwdriver on them.
 As a Medical Cyborg, you can fully perform surgery and even augment people.
 As a Janitor Cyborg, you are the bane of all slaughter demons and even Bubblegum himself. Cleaning up blood stains will severely gimp them.
-As the Chief Engineer, you can rename areas or create entirely new ones using your station blueprints.
+As the Chief Engineer, you can rename areas or create entirely new ones using your ship blueprints.
 As the Chief Engineer, your hardsuit is significantly better than everybody else's. It has the best features of both engineering and atmospherics hardsuits - boasting nigh-invulnerability to radiation and all atmospheric conditions, in addition to an integrated jetpack.
 As the Chief Engineer, you can spy on and even forge PDA communications with the message monitor console! The key is in your office.
 As the Chief Engineer, your locker contains a jetpack upgrade that can be attached to hardsuits.
@@ -93,7 +94,7 @@ As the Chief Engineer, the power flow control console in your office will show y
 As an Engineer, the supermatter shard is an extremely dangerous piece of equipment: touching it will disintegrate you. So will touching it with telepathy.
 As an Engineer, you can electrify grilles by placing wire "nodes" beneath them: the big seemingly unconnected bulges from a half completed wiring job.
 As an Engineer, return to Engineering once in a while to check on the engine and SMES cells. It's always a good idea to make sure containment isn't compromised.
-As an Engineer, you can temporarily power the station solely with the solar arrays. They will provide just enough electricity to power the station for a while, however their output is just slightly below what is truely needed to consistently power the station.
+As an Engineer, you can temporarily power the ship solely with the solar arrays. They will provide just enough electricity to power the ship for a while, however their output is just slightly below what is truely needed to consistently power the ship.
 As an Engineer, you can cool the supermatter crystal by spraying it with a fire extinguisher. Only for the brave!
 As an Engineer, the Particle Accelerator that powers singularity engines is also effective at killing blobs!
 As an Engineer, you can repair windows by using a welding tool on them while on any intent other than harm.
@@ -112,7 +113,7 @@ As an Atmospheric Technician, your backpack firefighter tank can launch resin. T
 As an Atmospheric Technician, your ATMOS holofan projector blocks gases while allowing objects to pass through. With it, you can quickly contain gas spills, fires and hull breaches. Or, use it to seal a plasmaman cloning room.
 As an Atmospheric Technician, burning a plasma/oxygen mix inside the incinerator will not only produce power, but also gases such as tritium, water vapor and carbon dioxide.
 As an Atmospheric Technician, you can change the layer of a pipe by clicking with it on a wrenched pipe or other atmos component of the desired layer.
-As the Head of Security, you are expected to coordinate your security force to handle any threat that comes to the station. Sometimes it means making use of the armory to handle a blob, sometimes it means being ruthless during a revolution or cult.
+As the Head of Security, you are expected to coordinate your security force to handle any threat that comes to the ship. Sometimes it means making use of the armory to handle a blob, sometimes it means being ruthless during a revolution or cult.
 As the Head of Security, you can call for executions or forced cyborgization, but require the Captain's approval to carry them out.
 As the Head of Security, don't let the power go to your head. You may have high access, great equipment, and a miniature army at your side, but being a terrible person without a good reason is grounds for banning.
 As the Warden, your duty is to be the watchdog of the brig and handler of prisoners when little is happening, and to hand out equipment and weapons to the security officers when a crisis strikes.
@@ -130,8 +131,9 @@ As the Detective, you can use your forensics scanner from a distance.
 As the Detective, your revolver can be loaded with .357 ammunition obtained from a hacked autolathe. Firing it has a decent chance to blow up your revolver.
 As the Lawyer, try to negotiate with the Warden if sentences seem too high for the crime.
 As the Lawyer, you can try to convince the Captain and Head of Security to hold trials for prisoners in the courtroom.
-As the Head of Personnel, you are not higher ranking than other heads of staff, even though you are expected to take the Captain's place first should he go missing. If the situation seems too rough for you, consider allowing another head to become temporary Captain.
-As the Head of Personnel, you are just as large a target as the Captain because of the potential power your ID and computer can hand out.
+As the Executive Officer, you are second in command and are expected to take the Captain's place first should he go missing.
+As the Executive Officer, you are just as large a target as the Captain because of the potential power your ID and computer can hand out.
+As the Master at Arms, your locker contains a munitions pinpointer that tracks down uninstalled circuit boards of ship weaponry after they come loose from enemy fire.
 As the Mime, your invisible wall power blocks people as well as projectiles. You can use it in a pinch to delay your pursuer.
 As the Mime, you can use :r and :l to speak through your ventriloquist dummy.
 As the Mime, your oath of silence is your source of power. Breaking it robs you of your powers and of your honor.
@@ -173,7 +175,7 @@ As a Shaft Miner, always have a GPS on you, so a fellow miner or cyborg can come
 As a Shaft Miner, you can craft a variety of equipment from the local fauna. Bone axes, lava boats and ash drake armour are just a few of them!
 As a Traitor, the cryptographic sequencer (emag) can not only open doors, but also lockers, crates, APCs and more. It can hack cyborgs, and even cause bots to go berserk. Use it on the right machines, and you can even order more traitor gear or contact the Syndicate. Experiment!
 As a Traitor, subverting the AI to serve you can make it an extremely powerful ally. However, be careful of the wording in the laws you give it, as it may use your poorly written laws against you!
-As a Traitor, the Captain and the Head of Security are two of the most difficult to kill targets on the station. If either one is your target, plan carefully.
+As a Traitor, the Captain and the Head of Security are two of the most difficult to kill targets on the ship. If either one is your target, plan carefully.
 As a Traitor, you can manufacture and recycle revolver bullets at a hacked autolathe, making the revolver an extremely powerful tool.
 As a Traitor, you may sometimes be assigned to hunt other traitors, and in turn be hunted by others.
 As a Traitor, the syndicate encryption key is very useful for coordinating plans with your fellow traitors -- or, of course, betraying them.
@@ -226,16 +228,16 @@ As a Wizard, most spells become unusable if you are not wearing your robe, hat, 
 As an Abductor, you can select where your victims will be sent on the ship control console.
 As an Abductor Agent, the combat mode vest has much higher resistance to every kind of weapon, and your helmet prevents the AI from tracking you.
 As an Abductor, the baton can cycle between four modes: stun, sleep, cuff and probe.
-As a Revenant, the Chaplain is your worst enemy, as they can damage you massively with the null rod and make large swaths of the station impassable with holy water.
+As a Revenant, the Chaplain is your worst enemy, as they can damage you massively with the null rod and make large swaths of the ship impassable with holy water.
 As a Revenant, your essence is also your health, so revealing yourself in front of humans to harvest the essence of the living is much safer if you've already stocked up on essences from poorly guarded corpses.
-As a Revenant, your Defile ability removes holy water from tiles in a small radius, along with salt, allowing you to reclaim the station from the chaplain if they've been covering the station in holy water. It can also be used to open morgue trays!
+As a Revenant, your Defile ability removes holy water from tiles in a small radius, along with salt, allowing you to reclaim the ship from the chaplain if they've been covering the ship in holy water. It can also be used to open morgue trays!
 As a Revenant, your Overload Lights ability will only shock humans with lights if the lights are still on after a brief delay.
 As a Revenant, your Malfunction ability in general damages machinery and mechanical objects, possibly even emagging some objects. Experiment!
 As a Revenant, the illness inflicted on humans by Blight can be easily cured by lying down or with holy water, making it best used on targets that have no time to lie down, such as humans in combat.
 As a Swarmer, you can deconstruct more things than you think. Try deconstructing light switches, buttons, air alarms and more. Experiment!
 As a Swarmer, you can teleport fellow swarmers away if you think they are in danger.
 As a Morph, you can talk while disguised, but your words have a chance of being slurred, giving you away!
-As a Drone, you can ping other drones to alert them of areas in the station in need of repair.
+As a Drone, you can ping other drones to alert them of areas in the ship in need of repair.
 As a Ghost, you can see the inside of a container on the ground by clicking on it.
 As a Ghost, you can double click on just about anything to follow it. Or just warp around!
 As a Security Officer, remember that correlation does not equal causation. Someone may have just been at the wrong place at the wrong time!

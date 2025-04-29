@@ -39,7 +39,7 @@
 		ticket_count += 1
 		sleep(10)
 	else if(player_hp <= 0 || player_mp <= 0)
-		heads_up = "You have been defeated... how will the station survive?"
+		heads_up = "You have been defeated... how will the ship survive?"
 		playsound(computer.loc, 'sound/arcade/lose.ogg', 50, TRUE, extrarange = -3, falloff_exponent = 10)
 		game_active = FALSE
 		program_icon_state = "arcade_off"

@@ -89,7 +89,7 @@ GLOBAL_VAR_INIT(pirates_spawned, FALSE)
 			else
 				notify_ghosts("The pirate ship has an object of interest: [spawner]!", source=spawner, action=NOTIFY_ORBIT, header="Something's Interesting!")
 
-	priority_announce("Unidentified armed ship detected near the station.", sound = SSstation.announcer.get_rand_alert_sound())
+	priority_announce("Unidentified armed vessel detected near the ship.", sound = SSstation.announcer.get_rand_alert_sound())
 
 //Shuttle equipment
 

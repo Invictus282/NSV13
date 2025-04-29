@@ -40,7 +40,7 @@ SUBSYSTEM_DEF(nightshift)
 			if(!emergency)
 				announce("Restoring night lighting configuration to normal operation.")
 			else
-				announce("Disabling night lighting: Station is in a state of emergency.")
+				announce("Disabling night lighting: Ship is in a state of emergency.")
 	if(emergency)
 		night_time = FALSE
 	if(nightshift_active != night_time)
@@ -50,9 +50,9 @@ SUBSYSTEM_DEF(nightshift)
 	nightshift_active = active
 	if(announce)
 		if (active)
-			announce("Good evening, crew. To reduce power consumption and stimulate the circadian rhythms of some species, all of the lights aboard the station have been dimmed for the night.")
+			announce("Good evening, crew. To reduce power consumption and stimulate the circadian rhythms of some species, all of the lights aboard the ship have been dimmed for the night.")
 		else
-			announce("Good morning, crew. As it is now day time, all of the lights aboard the station have been restored to their former brightness.")
+			announce("Good morning, crew. As it is now day time, all of the lights aboard the ship have been restored to their former brightness.")
 	for(var/A in GLOB.apcs_list)
 		var/obj/machinery/power/apc/APC = A
 		if (APC.area && (APC.area.type in GLOB.the_station_areas))

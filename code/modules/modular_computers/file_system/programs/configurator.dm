@@ -5,7 +5,7 @@
 /datum/computer_file/program/computerconfig
 	filename = "compconfig"
 	filedesc = "Settings"
-	extended_desc = "This program allows configuration of computer's hardware and operating system"
+	extended_desc = "This program allows configuration of computer's hardware and operating system."
 	program_icon_state = "generic"
 	unsendable = 1
 	undeletable = 1

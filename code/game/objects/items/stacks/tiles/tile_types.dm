@@ -512,7 +512,7 @@
 /obj/item/stack/tile/grid
 	name = "grey grid tile"
 	singular_name = "grey grid tile"
-	desc = "A gridded version of the standard station tiles."
+	desc = "A gridded version of the standard ship tiles."
 	icon_state = "tile_grid"
 	materials = list(/datum/material/iron=500)
 	turf_type = /turf/open/floor/plasteel/grid
@@ -520,7 +520,7 @@
 /obj/item/stack/tile/ridge
 	name = "grey ridge tile"
 	singular_name = "grey ridge tile"
-	desc = "A ridged version of the standard station tiles."
+	desc = "A ridged version of the standard ship tiles."
 	icon_state = "tile_ridged"
 	materials = list(/datum/material/iron=500)
 	turf_type = /turf/open/floor/plasteel/ridged

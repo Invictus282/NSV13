@@ -2,7 +2,7 @@
 
 /obj/machinery/computer/security
 	name = "security camera console"
-	desc = "Used to access the various cameras on the station."
+	desc = "Used to access the various cameras on the ship."
 	icon_screen = "cameras"
 	icon_keyboard = "security_key"
 	circuit = /obj/item/circuitboard/computer/security
@@ -222,7 +222,7 @@
 
 /obj/machinery/computer/security/wooden_tv
 	name = "security camera monitor"
-	desc = "An old TV hooked into the station's camera network."
+	desc = "An old TV hooked into the ship's camera network."
 	icon_state = "television"
 	icon_keyboard = "no_keyboard"
 	icon_screen = "detective_tv"

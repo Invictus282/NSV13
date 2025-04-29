@@ -264,10 +264,10 @@
 	page_link = "Guide_to_chemistry"
 
 /obj/item/book/manual/wiki/engineering_construction
-	name = "Station Repairs and Construction"
+	name = "Ship Repairs and Construction"
 	icon_state ="bookEngineering"
 	author = "Engineering Encyclopedia"
-	title = "Station Repairs and Construction"
+	title = "Ship Repairs and Construction"
 	page_link = "Guide_to_construction"
 
 /obj/item/book/manual/wiki/engineering_guide
@@ -286,7 +286,7 @@
 
 /obj/item/book/manual/wiki/security_space_law
 	name = "Space Law"
-	desc = "A set of Nanotrasen guidelines for keeping law and order on their space stations."
+	desc = "A set of Nanotrasen guidelines for keeping law and order on their space ships."
 	icon_state = "bookSpaceLaw"
 	author = "Nanotrasen"
 	title = "Space Law"
